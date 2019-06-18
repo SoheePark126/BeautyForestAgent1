@@ -35,10 +35,7 @@
             this.btnTray = new System.Windows.Forms.Button();
             this.ntiTray = new System.Windows.Forms.NotifyIcon(this.components);
             this.cmsMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.폼보이기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.종료ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.cmsMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -78,23 +75,8 @@
             // 
             // cmsMenu
             // 
-            this.cmsMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.폼보이기ToolStripMenuItem,
-            this.종료ToolStripMenuItem});
             this.cmsMenu.Name = "cmsMenu";
-            this.cmsMenu.Size = new System.Drawing.Size(181, 70);
-            // 
-            // 폼보이기ToolStripMenuItem
-            // 
-            this.폼보이기ToolStripMenuItem.Name = "폼보이기ToolStripMenuItem";
-            this.폼보이기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.폼보이기ToolStripMenuItem.Text = "폼 보이기";
-            // 
-            // 종료ToolStripMenuItem
-            // 
-            this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
-            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.종료ToolStripMenuItem.Text = "종료";
+            this.cmsMenu.Size = new System.Drawing.Size(61, 4);
             // 
             // Form1
             // 
@@ -112,7 +94,6 @@
             this.Name = "Form1";
             this.Text = "Beauty Forest Agent v0.1 by [3606] [박소희]";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.cmsMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -124,8 +105,6 @@
         private System.Windows.Forms.Button btnTray;
         private System.Windows.Forms.NotifyIcon ntiTray;
         private System.Windows.Forms.ContextMenuStrip cmsMenu;
-        private System.Windows.Forms.ToolStripMenuItem 폼보이기ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 종료ToolStripMenuItem;
     }
 }
 
